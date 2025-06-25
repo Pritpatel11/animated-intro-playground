@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #090909;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    text-transform: uppercase;
+    padding: 2vh 50px;
+}
+.nav h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(245, 245, 245, 0.833);
+}
+.nav a{
+    color: rgba(245, 245, 245, 0.833);
+    text-decoration: none;
+    padding: 0 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav a:hover{
+    color: whitesmoke;
+}
+.main h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 100px;
+    /* background-color: red; */
+    /* margin-top: 50px; */
+    width: 70%;
+    /* text-align: center; */
+    margin-left: 15%;
+    position: relative;
+    z-index: 1;
+}
+.main h1:nth-child(2){
+    margin-top: 120px;
+}
+.main h1:nth-child(3){
+    text-align: center;
+}
+.main h1:nth-child(4){
+    text-align: center;
+}
+.mousefollower {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: rgb(128, 7, 7) !important;
+  border-radius: 50% !important;  /* Circle */
+  mix-blend-mode: difference;     /* Cool blending effect */
+  pointer-events: none;
+}
+img{
+    height: 400px;
+    position: absolute;
+    top: 8%;
+    left: 35%;
+    /* transform: translate(-50%,-5%); */
+}
+
+#img-1{
+    rotate: 10deg;
+}
+#img-2{
+    rotate: 10deg;
+}
+
+.about{
+    margin-top: 82px;
+    width: 100%;
+    height: 10%;
+    /* background-color: darkblue; */
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-evenly; */
+}
+.about h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(245, 245, 245, 0.833);
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+.about h2:nth-child(2){
+    margin-left: 450px;
+    padding-bottom: 5px;
+}
